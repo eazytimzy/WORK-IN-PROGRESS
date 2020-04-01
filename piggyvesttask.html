@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-  <title>piggyvest sign in page</title>
+  <title>Dashboard - Piggyvest</title>
   <link rel="stylesheet" href="piggyvest.css">
     </head>
     <body>
         <div class= "create">
-            <p>Create a Secure Account</p>
+            <p><h1>Create a Secure Account</h1></p>
         </div>
-<div class="welcome">
-    <p>welcome to the future of saving &</p>
-</div>
-<div class= "investment">
-    <p>Investments</p>
-</div>
-
+    <p>welcome to the future of saving & Investments</p>
 <div class= "forms">
     <form action="piggyactionpage.php">
         <label for="fname">First Name</label><br>
@@ -28,7 +22,7 @@
         <label for="ref">Refferrer Phone or Promo Code (optional)</label><br>
         <input type="text"id="ref" placeholder="Refferer Phone of Code"><label><br>
             <label for="how">How did you hear about us (optional)</label><br>
-            <select>
+            <select name="how" id="how">
                 <option value="click to select">Click To Select</option>
                 <option value="Facebook"> Facebook</option>
                 <option value="Twitter"> Twitter</option>
@@ -39,7 +33,7 @@
                 <option value="Online Blog">Online Blog</option>
                 <option value="Local Newspapper">Local Newspapper</option>
                 <option value="At an event">At an event</option>
-                <option value="Other">Other</option>
+                <option value="Other">Other</option><br>
 
 
             </select>
@@ -48,10 +42,10 @@
 
             
            <br>
-            <div class="submit">
-                <input type="submit" value= "Create"><br>
+           <button type="Submit">Create Account</button><br>
+                <a href="#">Already have an account ? Log In </a>
 
-            </div>
+            
     </form>
 
 </div>
